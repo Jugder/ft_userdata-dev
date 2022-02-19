@@ -7575,3 +7575,149 @@ telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.tel
 2022-02-19 03:48:55,502 - freqtrade.configuration.configuration - INFO - Dry run is enabled
 2022-02-19 03:48:55,505 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
 2022-02-19 03:48:55,508 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 20 ...
+2022-02-19 03:48:55,954 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-02-19 03:48:55,967 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-02-19 03:48:55,970 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-02-19 03:48:56,052 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-02-19 03:48:56,055 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-02-19 03:48:56,059 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.1
+2022-02-19 03:48:56,665 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/GodStra.py due to 'No module named 'ta''
+2022-02-19 03:48:56,744 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/Heracles.py due to 'No module named 'ta''
+2022-02-19 03:48:56,994 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy Strategy001 from '/freqtrade/user_data/strategies/Strategy001.py'...
+2022-02-19 03:48:56,999 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-02-19 03:48:57,002 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-02-19 03:48:57,005 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-02-19 03:48:57,008 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-02-19 03:48:57,012 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-02-19 03:48:57,014 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2022-02-19 03:48:57,017 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-02-19 03:48:57,019 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.03, '20': 0.04, '0': 0.05}
+2022-02-19 03:48:57,022 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-02-19 03:48:57,024 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-02-19 03:48:57,027 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-02-19 03:48:57,029 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.01
+2022-02-19 03:48:57,032 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.02
+2022-02-19 03:48:57,034 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-02-19 03:48:57,037 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-02-19 03:48:57,039 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2022-02-19 03:48:57,041 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-02-19 03:48:57,044 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2022-02-19 03:48:57,047 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-02-19 03:48:57,049 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2022-02-19 03:48:57,052 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-02-19 03:48:57,054 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2022-02-19 03:48:57,057 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-02-19 03:48:57,059 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2022-02-19 03:48:57,062 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: True
+2022-02-19 03:48:57,065 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2022-02-19 03:48:57,067 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2022-02-19 03:48:57,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-02-19 03:48:57,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-02-19 03:48:57,075 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-02-19 03:48:57,078 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-02-19 03:48:57,080 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-02-19 03:48:57,106 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-02-19 03:48:57,109 - freqtrade.exchange.exchange - INFO - Using CCXT 1.71.73
+2022-02-19 03:48:57,230 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-02-19 03:49:00,609 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-02-19 03:49:01,219 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 03:49:01,223 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-02-19 03:49:01,509 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2022-02-19 03:49:05,987 - apscheduler.scheduler - INFO - Scheduler started
+2022-02-19 03:49:07,135 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['buys'], ['sells'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['blacklist_delete', 'bl_delete'], ['logs'], ['edge'], ['help'], ['version']]
+2022-02-19 03:49:07,139 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-02-19 03:49:10,122 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 127.0.0.1:3000
+2022-02-19 03:49:10,126 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-02-19 03:49:10,226 - uvicorn.error - INFO - Started server process [1]
+2022-02-19 03:49:10,230 - uvicorn.error - INFO - Waiting for application startup.
+2022-02-19 03:49:10,235 - uvicorn.error - INFO - Application startup complete.
+2022-02-19 03:49:10,240 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:3000 (Press CTRL+C to quit)
+2022-02-19 03:49:10,298 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-02-19 03:49:11,617 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 03:49:11,620 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 03:49:11,624 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 03:49:11,740 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'GALA/USDT', 'SHIB/USDT', 'SLP/USDT', 'AVAX/USDT', 'LUNA/USDT', 'SOL/USDT', 'SAND/USDT', 'ADA/USDT', 'MANA/USDT', 'MATIC/USDT', 'FTM/USDT', 'DOT/USDT', 'ATOM/USDT', 'TRX/USDT', 'DOGE/USDT', 'NEO/USDT', 'LTC/USDT']
+2022-02-19 03:49:11,786 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-02-19 03:49:12,560 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-02-19 03:49:12,563 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-02-19 03:49:12,829 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.03, '20': 0.04, '0': 0.05}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `Strategy001`"}
+2022-02-19 03:49:12,833 - freqtrade.rpc.telegram - INFO - Notification 'startup' not sent.
+2022-02-19 03:49:12,838 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-02-19 03:49:12,842 - freqtrade.rpc.telegram - INFO - Notification 'startup' not sent.
+2022-02-19 03:49:12,862 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=3, pair=XRP/USDT, amount=393.70078740, open_rate=0.83820000, open_since=2022-02-16 06:45:08)
+2022-02-19 03:49:12,867 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=7, pair=ADA/USDT, amount=37.70000000, open_rate=1.02900000, open_since=2022-02-18 05:35:26)
+2022-02-19 03:49:12,870 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=8, pair=AVAX/USDT, amount=0.43000000, open_rate=89.13000000, open_since=2022-02-18 06:11:13)
+2022-02-19 03:49:12,874 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=13, pair=BTC/USDT, amount=0.00095000, open_rate=40706.35000000, open_since=2022-02-18 06:55:14)
+2022-02-19 03:49:12,877 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=15, pair=TRX/USDT, amount=611.40000000, open_rate=0.06380000, open_since=2022-02-18 12:15:18)
+2022-02-19 03:49:12,881 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=20, pair=SHIB/USDT, amount=1369799.88907303, open_rate=0.00002848, open_since=2022-02-19 00:25:18)
+2022-02-19 03:49:12,885 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=21, pair=DOT/USDT, amount=2.17000000, open_rate=17.96000000, open_since=2022-02-19 00:25:20)
+2022-02-19 03:49:12,888 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=22, pair=GALA/USDT, amount=132.42328867, open_rate=0.29460000, open_since=2022-02-19 00:35:17)
+2022-02-19 03:49:12,892 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=23, pair=FTM/USDT, amount=20.69267535, open_rate=1.88530000, open_since=2022-02-19 00:35:18)
+2022-02-19 03:49:12,895 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=25, pair=ETH/USDT, amount=0.01390000, open_rate=2800.76000000, open_since=2022-02-19 00:40:18)
+2022-02-19 03:49:12,900 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=27, pair=BUSD/USDT, amount=39.12267156, open_rate=0.99950000, open_since=2022-02-19 03:45:17)
+2022-02-19 03:49:12,903 - freqtrade.persistence.models - INFO - Stoploss for Trade(id=27, pair=BUSD/USDT, amount=39.12267156, open_rate=0.99950000, open_since=2022-02-19 03:45:17) needs adjustment...
+2022-02-19 03:49:12,907 - freqtrade.persistence.models - INFO - New stoploss: 0.8995500000000001.
+2022-02-19 03:49:26,530 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:50:32,978 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:51:36,051 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:52:42,572 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:53:47,286 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:54:50,882 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:55:52,112 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:56:57,797 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:57:58,835 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 03:59:05,591 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:00:07,449 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:01:07,667 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:02:09,090 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:03:11,093 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:04:13,041 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:05:19,886 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:06:22,555 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:07:24,197 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:08:25,485 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:09:26,843 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:10:28,623 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:11:28,839 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:12:31,559 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:13:35,345 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:14:41,221 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:15:45,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:16:50,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:17:55,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:19:01,652 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:19:20,751 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'GALA/USDT', 'SHIB/USDT', 'SLP/USDT', 'AVAX/USDT', 'LUNA/USDT', 'SOL/USDT', 'SAND/USDT', 'ADA/USDT', 'MANA/USDT', 'MATIC/USDT', 'FTM/USDT', 'DOT/USDT', 'TRX/USDT', 'ATOM/USDT', 'DOGE/USDT', 'NEO/USDT', 'LTC/USDT']
+2022-02-19 04:20:14,846 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:21:17,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:22:22,648 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:23:26,418 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:24:32,312 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:25:37,324 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:26:42,322 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:27:46,870 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:28:52,988 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:30:00,534 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:31:03,257 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:32:07,878 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:33:13,553 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:34:18,218 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:35:20,470 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:36:28,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:37:33,286 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:38:37,956 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:39:42,113 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:40:44,784 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:41:50,732 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:42:55,883 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:44:01,059 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:45:06,557 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:46:09,271 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:47:13,599 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:48:19,228 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:49:19,940 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:49:31,508 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 04:49:31,512 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 04:49:31,515 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 04:49:31,638 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'GALA/USDT', 'SHIB/USDT', 'SLP/USDT', 'AVAX/USDT', 'LUNA/USDT', 'SOL/USDT', 'SAND/USDT', 'ADA/USDT', 'MANA/USDT', 'MATIC/USDT', 'FTM/USDT', 'DOT/USDT', 'TRX/USDT', 'ATOM/USDT', 'DOGE/USDT', 'NEO/USDT', 'LTC/USDT']
+2022-02-19 04:50:25,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 04:51:27,267 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
