@@ -7721,3 +7721,117 @@ telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.tel
 2022-02-19 04:49:31,638 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'GALA/USDT', 'SHIB/USDT', 'SLP/USDT', 'AVAX/USDT', 'LUNA/USDT', 'SOL/USDT', 'SAND/USDT', 'ADA/USDT', 'MANA/USDT', 'MATIC/USDT', 'FTM/USDT', 'DOT/USDT', 'TRX/USDT', 'ATOM/USDT', 'DOGE/USDT', 'NEO/USDT', 'LTC/USDT']
 2022-02-19 04:50:25,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
 2022-02-19 04:51:27,267 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 05:28:11,515 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-02-19 05:28:11,523 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-02-19 05:28:11,538 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-02-19 05:28:11,547 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-02-19 05:28:11,558 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-02-19 05:28:11,570 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 20 ...
+2022-02-19 05:28:15,305 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-02-19 05:28:15,341 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2022-02-19 05:28:15,352 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-02-19 05:28:15,362 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-02-19 05:28:15,408 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-02-19 05:28:15,422 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-02-19 05:28:15,430 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.1
+2022-02-19 05:28:15,679 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/GodStra.py due to 'No module named 'ta''
+2022-02-19 05:28:15,735 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/Heracles.py due to 'No module named 'ta''
+2022-02-19 05:28:15,819 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy Strategy001 from '/freqtrade/user_data/strategies/Strategy001.py'...
+2022-02-19 05:28:15,830 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-02-19 05:28:15,837 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-02-19 05:28:15,849 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-02-19 05:28:15,866 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-02-19 05:28:15,874 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-02-19 05:28:15,882 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2022-02-19 05:28:15,890 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-02-19 05:28:15,903 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.03, '20': 0.04, '0': 0.05}
+2022-02-19 05:28:15,926 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-02-19 05:28:15,934 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-02-19 05:28:15,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-02-19 05:28:15,952 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.01
+2022-02-19 05:28:15,984 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.02
+2022-02-19 05:28:15,992 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-02-19 05:28:16,000 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-02-19 05:28:16,013 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2022-02-19 05:28:16,026 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-02-19 05:28:16,033 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2022-02-19 05:28:16,040 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-02-19 05:28:16,048 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2022-02-19 05:28:16,054 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-02-19 05:28:16,062 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2022-02-19 05:28:16,073 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-02-19 05:28:16,085 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2022-02-19 05:28:16,092 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: True
+2022-02-19 05:28:16,099 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2022-02-19 05:28:16,112 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2022-02-19 05:28:16,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-02-19 05:28:16,136 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-02-19 05:28:16,143 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-02-19 05:28:16,153 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-02-19 05:28:16,164 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-02-19 05:28:16,187 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-02-19 05:28:16,195 - freqtrade.exchange.exchange - INFO - Using CCXT 1.71.73
+2022-02-19 05:28:16,253 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-02-19 05:28:19,736 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-02-19 05:28:26,062 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:28:26,086 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-02-19 05:28:26,358 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2022-02-19 05:28:33,867 - apscheduler.scheduler - INFO - Scheduler started
+2022-02-19 05:28:34,447 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['buys'], ['sells'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['blacklist_delete', 'bl_delete'], ['logs'], ['edge'], ['help'], ['version']]
+2022-02-19 05:28:34,461 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-02-19 05:28:35,749 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 127.0.0.1:3000
+2022-02-19 05:28:35,769 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-02-19 05:28:35,826 - uvicorn.error - INFO - Started server process [1]
+2022-02-19 05:28:35,837 - uvicorn.error - INFO - Waiting for application startup.
+2022-02-19 05:28:35,851 - uvicorn.error - INFO - Application startup complete.
+2022-02-19 05:28:35,871 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:3000 (Press CTRL+C to quit)
+2022-02-19 05:28:35,896 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-02-19 05:28:37,111 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 05:28:37,175 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 05:28:37,331 - VolumePairList - INFO - Pair BUSD/USDT in your blacklist. Removing it from whitelist...
+2022-02-19 05:28:37,599 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'GALA/USDT', 'SHIB/USDT', 'SLP/USDT', 'AVAX/USDT', 'LUNA/USDT', 'SOL/USDT', 'SAND/USDT', 'ADA/USDT', 'MANA/USDT', 'MATIC/USDT', 'FTM/USDT', 'DOT/USDT', 'TRX/USDT', 'ATOM/USDT', 'DOGE/USDT', 'NEO/USDT', 'LTC/USDT']
+2022-02-19 05:28:37,674 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-02-19 05:28:38,238 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-02-19 05:28:38,277 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-02-19 05:28:38,573 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.03, '20': 0.04, '0': 0.05}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `Strategy001`"}
+2022-02-19 05:28:38,633 - freqtrade.rpc.telegram - INFO - Notification 'startup' not sent.
+2022-02-19 05:28:38,729 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-02-19 05:28:38,901 - freqtrade.rpc.telegram - INFO - Notification 'startup' not sent.
+2022-02-19 05:28:39,168 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=3, pair=XRP/USDT, amount=393.70078740, open_rate=0.83820000, open_since=2022-02-16 06:45:08)
+2022-02-19 05:28:39,184 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=7, pair=ADA/USDT, amount=37.70000000, open_rate=1.02900000, open_since=2022-02-18 05:35:26)
+2022-02-19 05:28:39,202 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=8, pair=AVAX/USDT, amount=0.43000000, open_rate=89.13000000, open_since=2022-02-18 06:11:13)
+2022-02-19 05:28:39,214 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=13, pair=BTC/USDT, amount=0.00095000, open_rate=40706.35000000, open_since=2022-02-18 06:55:14)
+2022-02-19 05:28:39,224 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=15, pair=TRX/USDT, amount=611.40000000, open_rate=0.06380000, open_since=2022-02-18 12:15:18)
+2022-02-19 05:28:39,232 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=20, pair=SHIB/USDT, amount=1369799.88907303, open_rate=0.00002848, open_since=2022-02-19 00:25:18)
+2022-02-19 05:28:39,248 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=21, pair=DOT/USDT, amount=2.17000000, open_rate=17.96000000, open_since=2022-02-19 00:25:20)
+2022-02-19 05:28:39,262 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=22, pair=GALA/USDT, amount=132.42328867, open_rate=0.29460000, open_since=2022-02-19 00:35:17)
+2022-02-19 05:28:39,270 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=23, pair=FTM/USDT, amount=20.69267535, open_rate=1.88530000, open_since=2022-02-19 00:35:18)
+2022-02-19 05:28:39,280 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=25, pair=ETH/USDT, amount=0.01390000, open_rate=2800.76000000, open_since=2022-02-19 00:40:18)
+2022-02-19 05:28:39,287 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=27, pair=BUSD/USDT, amount=39.12267156, open_rate=0.99950000, open_since=2022-02-19 03:45:17)
+2022-02-19 05:28:50,461 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:28:51,897 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for ATOM/USDT with stake_amount: 39.103110228400006 ...
+2022-02-19 05:28:52,677 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1645248531.96635 was created for ATOM/USDT and status is open.
+2022-02-19 05:28:53,665 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:28:53,699 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 28, 'type': buy, 'buy_tag': None, 'exchange': 'Binance', 'pair': 'ATOM/USDT', 'limit': 27.26, 'open_rate': 27.26, 'order_type': 'limit', 'stake_amount': 39.103110228400006, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.43, 'open_date': datetime.datetime(2022, 2, 19, 5, 28, 52, 740075), 'current_rate': 27.26}
+2022-02-19 05:28:54,309 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 05:29:03,402 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52)
+2022-02-19 05:29:10,936 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52)
+2022-02-19 05:29:16,437 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52)
+2022-02-19 05:29:23,886 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52)
+2022-02-19 05:29:32,711 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52)
+2022-02-19 05:29:32,907 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52) [buy]: 0.0389818 USDT - rate: 0.001
+2022-02-19 05:29:32,915 - freqtrade.persistence.models - INFO - Updating trade (id=28) ...
+2022-02-19 05:29:32,925 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=28, pair=ATOM/USDT, amount=1.43000000, open_rate=27.26000000, open_since=2022-02-19 05:28:52).
+2022-02-19 05:29:33,185 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:29:33,200 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 28, 'type': buy_fill, 'buy_tag': None, 'exchange': 'Binance', 'pair': 'ATOM/USDT', 'limit': 27.26, 'open_rate': 27.26, 'order_type': None, 'stake_amount': 39.103110228400006, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.43, 'open_date': datetime.datetime(2022, 2, 19, 5, 28, 52, 740075), 'current_rate': 27.26}
+2022-02-19 05:29:33,229 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2022-02-19 05:29:55,330 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.1', state='RUNNING'
+2022-02-19 05:30:13,758 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:30:14,001 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for MANA/USDT with stake_amount: 23.050156541999968 ...
+2022-02-19 05:30:14,646 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1645248614.177763 was created for MANA/USDT and status is open.
+2022-02-19 05:30:17,723 - freqtrade.wallets - INFO - Wallets synced.
+2022-02-19 05:30:17,783 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 29, 'type': buy, 'buy_tag': None, 'exchange': 'Binance', 'pair': 'MANA/USDT', 'limit': 2.995, 'open_rate': 2.995, 'order_type': 'limit', 'stake_amount': 23.050156541999968, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 7.696212534891475, 'open_date': datetime.datetime(2022, 2, 19, 5, 30, 14, 782449), 'current_rate': 2.995}
+2022-02-19 05:30:25,859 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=29, pair=MANA/USDT, amount=7.69621253, open_rate=2.99500000, open_since=2022-02-19 05:30:14)
+2022-02-19 05:30:35,152 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=29, pair=MANA/USDT, amount=7.69621253, open_rate=2.99500000, open_since=2022-02-19 05:30:14)
+2022-02-19 05:30:41,304 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=29, pair=MANA/USDT, amount=7.69621253, open_rate=2.99500000, open_since=2022-02-19 05:30:14)
+2022-02-19 05:30:45,966 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=29, pair=MANA/USDT, amount=7.69621253, open_rate=2.99500000, open_since=2022-02-19 05:30:14)
