@@ -39,7 +39,9 @@
         "pair_blacklist": [
             "BNB/.*",
             "USDC/USDT",
-            "BUSD/USDT"
+            "BUSD/USDT",
+            ".DOWN/*",
+            ".UP/*"
         ]
     },
     "pairlists": [
@@ -68,7 +70,7 @@
     "telegram": {
         "enabled": true,
         "token": "1112089948:AAGBMs2_zdUBoAbBFlp3rNZo5G_eodOi2ak",
-        "chat_id": "-721228460",
+        "chat_id": "-1001523343838",
         "notification_settings": {
             "status": "silent",
             "warning": "on",
@@ -102,10 +104,10 @@
         "enable_openapi": false,
         "jwt_secret_key": "f59719f23a81b677cd90deda8228eeb2c410e8587a727a188dc42ba2b44f4d66",
         "CORS_origins": [],
-        "username": "freqtrader",
+        "username": "user",
         "password": "5799724"
     },
-    "bot_name": "freqtrade",
+    "bot_name": "HFTrader-770",
     "initial_state": "running",
     "forcebuy_enable": false,
     "internals": {
