@@ -41,7 +41,8 @@
             "USDC/USDT",
             "BUSD/USDT",
             ".DOWN/*",
-            ".UP/*"
+            ".UP/*",
+            "UST/USDT"
         ]
     },
     "pairlists": [
@@ -54,7 +55,7 @@
         }
     ],
     "edge": {
-        "enabled": false,
+        "enabled": true,
         "process_throttle_secs": 3600,
         "calculate_since_number_of_days": 7,
         "allowed_risk": 0.01,
