@@ -98,8 +98,8 @@
     },
     "api_server": {
         "enabled": true,
-        "listen_ip_address": "127.0.0.1",
-        "listen_port": 3000,
+        "listen_ip_address": "0.0.0.0",
+        "listen_port": 8080,
         "verbosity": "error",
         "enable_openapi": false,
         "jwt_secret_key": "f59719f23a81b677cd90deda8228eeb2c410e8587a727a188dc42ba2b44f4d66",
